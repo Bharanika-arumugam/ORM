@@ -5,3 +5,4 @@ from . models import car
 admin.site.register(car)
 class carAdmin(admin.ModelAdmin):
     list_display = ('id','brand','model','year','price')
+
